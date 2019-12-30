@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Regression Test]">
+  <parameter name="expected1" value="Register: Mercury Tours"/>
+  <parameter name="firstName" value="Space"/>
+  <parameter name="lastName" value="leak"/>
+  <parameter name="phone" value="202-678-5311"/>
+  <parameter name="expected" value="http://newtours.demoaut.com/mercuryregister.php"/>
+  <parameter name="email" value="tumbam25@gmail.com"/>
+  <test name="Regression Release = 12.61(failed)">
+    <parameter name="expected1" value="Register: Mercury Tours"/>
+    <parameter name="firstName" value="Space"/>
+    <parameter name="lastName" value="leak"/>
+    <parameter name="phone" value="202-678-5311"/>
+    <parameter name="expected" value="http://newtours.demoaut.com/mercuryregister.php"/>
+    <parameter name="email" value="tumbam25@gmail.com"/>
+    <classes>
+      <class name="testRun.mercuryParameter">
+        <methods>
+          <include name="test"/>
+          <include name="validateUrl"/>
+          <include name="validateTitle"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- testRun.mercuryParameter -->
+    </classes>
+  </test> <!-- Regression Release = 12.61(failed) -->
+</suite> <!-- Failed suite [Regression Test] -->

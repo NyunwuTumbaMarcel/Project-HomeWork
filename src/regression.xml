@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name = "Regression Testing" parralle = "true">
+<test name = "Regression Release = 2.50">
+
+<classes>
+
+<class name = "testRun.mercuryRun"/>
+<class name = "testRun.yahooRun"/>
+
+
+</classes>
+
+
+</test>
+</suite>

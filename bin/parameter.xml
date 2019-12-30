@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name = "Regression Test">
+<test name = "Regression Release = 12.58">
+
+<parameter name = "firstName" value = "Space" />
+<parameter name = "lastName"  value = "leak" />
+
+<classes>
+
+<class name = "testRun.parameterTest"/>
+
+</classes>
+</test>
+
+
+
+
+
+<test name = "Regression Release = 12.59">
+
+<parameter name = "firstName" value = "Mark" />
+<parameter name = "lastName"  value = "Angel" />
+
+<classes>
+
+<class name = "testRun.parameterTest"/>
+
+</classes>
+</test>
+</suite>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name = "Regression Test">
+<test name = "Regression Release = 12.61">
+
+<parameter name = "firstName" value = "Space" />
+<parameter name = "lastName"  value = "leak" />
+<parameter name = "phone"     value = "202-678-5311"/>
+<parameter name = "email"     value = "tumbam25@gmail.com"/>
+<parameter name = "expected" value = "http://newtours.demoaut.com/mercuryregister.php"/>
+<parameter name = "expected1" value = "Register: Mercury Tours"/>
+
+<classes>
+
+<class name = "testRun.mercuryParameter"/>
+
+</classes>
+</test>
+</suite>

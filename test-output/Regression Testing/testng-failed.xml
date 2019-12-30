@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Regression Testing]">
+  <test name="Regression Release = 2.50(failed)">
+    <classes>
+      <class name="testRun.mercuryRun">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="test"/>
+          <include name="validateTitle"/>
+          <include name="validateUrl"/>
+        </methods>
+      </class> <!-- testRun.mercuryRun -->
+      <class name="testRun.yahooRun">
+        <methods>
+          <include name="validateCont"/>
+          <include name="validateSignInLink"/>
+          <include name="validateCurrentEmailLink"/>
+          <include name="validateYear"/>
+          <include name="validateMobileNumber"/>
+          <include name="validatePassWord"/>
+          <include name="validateLastName"/>
+          <include name="validateEmailAddress"/>
+          <include name="validateTerms"/>
+          <include name="validateFirstName"/>
+          <include name="validateCountryCode"/>
+          <include name="validatePrivacyPolicy"/>
+          <include name="validateDay"/>
+          <include name="validateBirthMonth"/>
+        </methods>
+      </class> <!-- testRun.yahooRun -->
+    </classes>
+  </test> <!-- Regression Release = 2.50(failed) -->
+</suite> <!-- Failed suite [Regression Testing] -->

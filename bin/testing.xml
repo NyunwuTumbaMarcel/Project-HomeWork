@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<parameter name = "name"  value = "De Marco" />
+<parameter name = "email" value = "Smith@gmail.com" />
+<parameter name = "userID" value = "John1234"/>
+<parameter name = "password" value = "Jn23456#"/>
