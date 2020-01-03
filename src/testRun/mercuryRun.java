@@ -82,8 +82,9 @@ public class mercuryRun {
 	}
 
 	@AfterTest
-	public void afterTest() {
+	public void afterTest() throws InterruptedException {
 		
+		Thread.sleep(3000);
 		driver.quit();
 		
 	}
